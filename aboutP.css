@@ -1,0 +1,116 @@
+.aboutHeader {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.h1a{
+    text-align: center;
+    padding-left: 25%;
+}
+
+.aboutSecLeft{
+    display: flex;
+    align-items: center;
+    justify-self: center;;
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutSecRight{
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+.imgLeft{
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.imgRight{
+    float: right;
+    width: 50%;
+    padding: 20px;
+}
+
+.aboutContent {
+    float: left;
+    width: 50%;
+    padding: 20px;
+}
+
+.parent {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    max-width: fit-content;
+  }
+.child {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+.float-parent-element { 
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 20%;
+} 
+.float-child-element { 
+    float: left; 
+    width: 50%; 
+} 
+.black { 
+    background-color: black; 
+    margin-left: 50%; 
+    height: 100px; 
+} 
+.gold { 
+    margin-left: 50%; 
+    height: 100px; 
+    background-color: rgb(154, 154, 60); 
+}
+.hero {
+    position: relative;
+    height: 100%;
+    width: 100%;
+
+}
+.hero .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.intro-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}

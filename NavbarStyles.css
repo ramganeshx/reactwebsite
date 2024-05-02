@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: black;
+}
+
+.nav-menu {
+    display: flex;
+
+}
+
+
+.nav-menu li {
+    padding: 0 1rem;
+}
+
+.nav-menu li a {
+    font-size: 1.2rem;
+    font-weight: 500;
+
+
+
+}
+
+.ia {
+    color: rgb(209, 177, 98);
+    text-shadow: 0 .05rem .1rem rgba(237, 231, 231, 0.689);
+
+}
